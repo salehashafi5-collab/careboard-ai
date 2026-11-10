@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CareBoard AI — Intelligent care layer</title>
+<meta name="description" content="CareBoard AI: one intelligence layer over the hospital EHR for safer, clearer inpatient care.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<meta property="og:title" content="CareBoard AI">
+<meta property="og:description" content="One intelligence layer over the hospital EHR. Safer, clearer inpatient care.">
+<meta name="theme-color" content="#2A1660">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg class="logo" width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B2384"/><stop offset="1" stop-color="#1C0F45"/></linearGradient></defs><rect x="1" y="1" width="38" height="38" rx="9" fill="url(#cbg)"/><rect x="3.6" y="3.6" width="32.8" height="32.8" rx="7" fill="none" stroke="#D4B15A" stroke-width="1" stroke-opacity=".85"/><path d="M27.6 13.4A9.6 9.6 0 1 0 27.6 26.6" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round"/><rect x="18.7" y="15" width="2.6" height="10" rx=".8" fill="#D4B15A"/><rect x="15" y="18.7" width="10" height="2.6" rx=".8" fill="#D4B15A"/></svg>
+    <div><div class="wordmark">CareBoard<span>AI</span></div><div class="host" id="hostName"></div></div>
+  </div>
+  <div class="spacer"></div>
+  <label class="ptsel"><span class="small muted" id="lblPatient"></span><select id="ptSelect"></select></label>
+  <label class="switch topsw"><input type="checkbox" id="mineToggle"><span id="mineLbl"></span></label>
+  <span class="chip" id="userChip"></span>
+  <button class="btn sm lang" id="langBtn" type="button"></button>
+</header>
+<div class="shell">
+  <nav class="rail" id="rail"></nav>
+  <main id="main" tabindex="-1"></main>
+</div>
+<dialog id="dlg"><div class="dlg-h"><div class="sec-ic cb" aria-hidden="true">?</div><h3 id="dlgTitle"></h3><span style="flex:1"></span><button class="btn sm" id="dlgClose" type="button"></button></div><div class="dlg-b" id="dlgBody"></div></dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
