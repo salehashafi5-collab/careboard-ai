@@ -10,15 +10,10 @@ An add-on board that sits on top of the hospital EHR and shows clinicians what c
 <p align="center">
   <a href="https://careboardai-ksa.netlify.app/"><strong>▶ Live demo</strong></a> ·
   <a href="#3-minute-demo-walkthrough">3-minute walkthrough</a> ·
-  <a href="docs/CLINICAL_LOGIC.md">Clinical logic</a> ·
-  <a href="docs/ARCHITECTURE.md">Architecture</a>
+
 </p>
 
-<p align="center">
-  <img src="docs/screenshots/01-ward-board.png" alt="Ward board: every patient on one screen, sickest first" width="900">
-</p>
 
-> **All patients, staff and hospital data in this demo are fictional.** No real patient information is used or stored.
 
 ---
 
